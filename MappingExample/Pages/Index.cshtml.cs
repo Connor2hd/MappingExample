@@ -48,7 +48,6 @@ namespace MappingExample.Pages
             {
                 using (CsvReader reader = new CsvReader(sr, configuration))
                 {
-
                     FeatureCollection featureCollection = new FeatureCollection();
 
                     while (reader.Read())
